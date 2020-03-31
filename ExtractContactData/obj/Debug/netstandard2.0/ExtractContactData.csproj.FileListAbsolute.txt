@@ -1,0 +1,11 @@
+D:\ExtractContacts\ExtractContacts\ExtractContactData\bin\Debug\netstandard2.0\ExtractContactData.deps.json
+D:\ExtractContacts\ExtractContacts\ExtractContactData\bin\Debug\netstandard2.0\ExtractContactData.dll
+D:\ExtractContacts\ExtractContacts\ExtractContactData\bin\Debug\netstandard2.0\ExtractContactData.pdb
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.csprojAssemblyReference.cache
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.AssemblyInfoInputs.cache
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.AssemblyInfo.cs
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.dll
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.pdb
+D:\ExtractContacts\ExtractContacts\ExtractContactData\bin\Debug\netstandard2.0\Domains.dll
+D:\ExtractContacts\ExtractContacts\ExtractContactData\bin\Debug\netstandard2.0\Domains.pdb
+D:\ExtractContacts\ExtractContacts\ExtractContactData\obj\Debug\netstandard2.0\ExtractContactData.csproj.CopyComplete

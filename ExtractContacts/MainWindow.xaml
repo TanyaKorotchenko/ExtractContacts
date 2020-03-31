@@ -1,0 +1,49 @@
+﻿<Window x:Class="ExtractContacts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExtractContacts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid RenderTransformOrigin="0.497,0.48">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="HTML" Grid.Column="0" Grid.Row="0" VerticalAlignment="Top"/>
+            <RichTextBox Grid.Column="1" Name="html" Grid.Row="0" Margin="1,1,5,1">
+                <FlowDocument>
+                    <Paragraph >
+                        <Run Text="380123456789, 80123456789, 0123456789, +380(123)456789, 380(123)456789, +380 123 456789, 380 123 456789, +380-123-456-789, 380-123-456-789, +380 123 456 789, 380 123 456 789&lt;header&gt; &lt;div id=&quot;logo&quot;&gt;Logo&lt;/div&gt;&lt;nav&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home 0123456789&lt;/a&gt;&lt;/li&gt;&lt;li title=&quot;80123456789&quot;&gt;&lt;a href=&quot;/link&quot;&gt; Page&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/nav&gt;&lt;/header&gt;&lt;article&gt; &lt;h2&gt;Title +380-123-456-789&lt;/h2&gt; &lt;p&gt;380 123 456 789 Content&lt;/p&gt;&lt;/article&gt;&lt;article&gt; &lt;h2&gt;some@email.com&lt;/h2&gt; &lt;p title=&quot;+380 123 456 789 &quot;&gt;Content&lt;/p&gt;&lt;/article&gt;&lt;section&gt;Just a section&lt;/section&gt;&lt;aside&gt;380123456789&lt;/aside&gt;&lt;footer&gt; "/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <Label Content="Результат" HorizontalAlignment="Center" Grid.Row="1"  Grid.Column="0" VerticalAlignment="Top"/>
+            <RichTextBox Grid.Column="1" Grid.Row="1" Name="resultText" Margin="1,1,5,1">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <Grid Grid.ColumnSpan="2" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Style="{DynamicResource ButtonStyle}" Content="Обработать" Grid.Column="0" Margin="5,5,5,5" Width="200" Click="Button_Click"/>
+                <Button Style="{DynamicResource ButtonStyle}" Content="Сохранить" Grid.Column="1" Margin="5,5,5,5" Width="200" Click="Button_Click_1"/>
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</Window>
